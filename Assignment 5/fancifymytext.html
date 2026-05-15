@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+		
+		<!-- link to your script file here -->
+		<script src="fancifymytext.js"></script>
+		<link rel="stylesheet" href="../style.css" />
+	</head>
+
+	<body>
+		<header>
+			<h1>Cole Tanner CSC 193A Assignments</h1>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="../Assignment 2/index.html" class="navLink">Assignment 2</a></li>
+				<li><a href="../Assignment 5/fancifymytext.html" class="navLink">Assignment 5</a></li>
+				<li><a href="../Assignment 6/starter/encrypt-it.html" class="navLink">Assignment 6</a></li>
+				<li><a href="../Assignment 7/index.html" class="navLink">Assignment 7</a></li>
+				<li><a href="../Assignment 8/index.html" class="navLink">Assignment 8</a></li>
+			</ul>
+		</nav>
+		
+		<h1>Fancify my Text</h1>
+		
+
+		<!-- Your UI controls go here -->
+		<fieldset>
+			<legend>Text</legend>
+			<textarea id="fancyTextArea" rows="4" cols="30"></textarea>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Fancify</legend>
+			
+			<button type="button" onClick="makeBigger()">Bigger!</button>
+			
+			<input type="radio" name="radial" id="fancy" onChange="setFancy()">FancySchmancy
+			<input type="radio" name="radial" id="boring" onChange="setBoring()">BoringBetty
+			
+			<button type="button" onClick="setMoo()">Moo</button>
+			
+		</fieldset>
+		
+	</body>
+</html>
